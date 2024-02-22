@@ -19,6 +19,7 @@ function SearchField() {
                     fullWidth
                     onChange={(ev) => setQuery(ev.target.value)}
                     value={query}
+                    autoFocus
                     InputProps={{
                         startAdornment: (
                             <InputAdornment position="start">
