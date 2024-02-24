@@ -7,7 +7,7 @@ import Typography from "@mui/material/Typography";
 export default function OMAppBar() {
     return (
         <Box sx={{ flexGrow: 1 }}>
-            <AppBar position="sticky" variant="outlined">
+            <AppBar position="sticky" elevation={0}>
                 <Toolbar>
                     <Typography
                         variant="h6"

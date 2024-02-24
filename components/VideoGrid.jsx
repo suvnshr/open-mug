@@ -25,8 +25,7 @@ function VideoGrid() {
         <Grid container sx={{ mt: 2, px: 2 }} spacing={3}>
             {filteredVideos.map((data, index) => (
                 <Grid
-                    xs={6}
-                    sx={4}
+                    sm={6}
                     md={4}
                     lg={4}
                     item
