@@ -28,7 +28,7 @@ function VideoGridPlayer({
                 controls
                 controlsList="nodownload"
                 preload="metadata"
-
+                loop
                 autoPlay
                 muted
             >
