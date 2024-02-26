@@ -29,7 +29,7 @@ function VideoGridPlayer({
                 controlsList="nodownload"
                 preload="metadata"
                 loop
-                autoPlay
+                // autoPlay
                 muted
             >
                 {sources.map((src, i) => (
