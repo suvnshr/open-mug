@@ -21,10 +21,10 @@ function NoVideosFound() {
                 </Box>
 
                 <Typography
-                    fontSize="18px"
+                    fontSize="22px"
                     textAlign="center"
                     color="text.secondary"
-                    sx={{py:  1}}
+                    sx={{ py: 2 }}
                 >
                     No videos found
                 </Typography>
