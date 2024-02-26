@@ -1,5 +1,5 @@
 import { createTheme, responsiveFontSizes } from '@mui/material/styles';
-import { deepOrange, deepPurple } from '@mui/material/colors';
+import { deepOrange, deepPurple, purple } from '@mui/material/colors';
 
 const FONT_FAMILY = '"Plus Jakarta Sans", sans-serif!important';
 
@@ -8,6 +8,10 @@ let theme = createTheme({
         primary: {
             main: deepPurple[800],
         },
+
+        secondary: {
+            main: purple[100]
+        }
     },
     typography: {
         fontFamily: FONT_FAMILY,
