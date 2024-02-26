@@ -15,11 +15,12 @@ function SearchField() {
                 alignItems="center"
             >
                 <TextField
-                    label="Search Open Source"
+                    label="Search Open Source Videos"
                     fullWidth
                     onChange={(ev) => setQuery(ev.target.value)}
                     value={query}
                     autoFocus
+                    placeholder="Eg: Big Buck Bunny, Google"
                     InputProps={{
                         startAdornment: (
                             <InputAdornment position="start">

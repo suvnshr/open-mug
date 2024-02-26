@@ -2,7 +2,7 @@
 
 import OMAppBar from "@/components/AppBar";
 import SearchField from "@/components/SearchField";
-import VideoGrid from "@/components/VideoGrid";
+import VideoGrid from "@/components/Video/VideoGrid";
 import SearchContextProvider from "@/context/SearchContext";
 import theme from "@/mui/theme";
 import { ThemeProvider } from "@emotion/react";
